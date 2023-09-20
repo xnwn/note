@@ -105,6 +105,17 @@ git init
 
 ```bash
 git add .
-git commit -m "first co"
+git commit -m "first commit"
 ```
 
+4. 设置远端仓库地址。
+
+```bash
+git remote add origin git@github.com:xnwn/note.git
+```
+
+5. 推送到远端的master分支。(-u参数只需要此次使用，后续可以不用，分支若后续不指定也可省略，即仅用上节4的三条命令)
+
+```bash
+git push -u origin master
+```
