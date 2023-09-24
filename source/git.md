@@ -1,8 +1,8 @@
 #### 下载
 
-官网下载：https://git-scm.com/downloads (当前2.42.0)
+官网下载：https://git-scm.com/downloads
 
-国内下载：https://pc.qq.com/detail/13/detail_22693.html (一直是最新版)
+国内下载：https://pc.qq.com/detail/13/detail_22693.html
 
 ---
 
@@ -52,7 +52,7 @@ ssh-keygen -t rsa -C "1029844720@qq.com"
 
 **注2**: 个人建议不要设置密码，否则后续进行本地和远端通信时经常要输入密码。(如clone和push时)
 
-**注3**: 后续进行第一次推送时会根据此密钥建立连接，此时会询问是否建立连接，输入yes回车即可。
+**注3**: 后续进行第一次推送时会根据此密钥建立连接，此时连接会询问是否确认建立连接，输入yes回车即可。
 
 2. 根据存放位置找到文件**<u>id_rsa.pub</u>**，将密钥内容复制。
 3. 登录Github，依次选择右上角头像 --> Settings --> SSH and GPG keys --> New SSH key。
